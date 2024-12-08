@@ -1,10 +1,10 @@
-# GTM Server Tag - Append Values to Custom Customer Property Arrays
+# GTM Server Tag - Append Values to Custom Profile Properties in Klaviyo
 
-This tag template can be used to append values to custom customer property arrays, using the email address of the profile. This is useful when the Klaviyo profile ID is not necessarily known. This tag uses the `profile-import` Klaviyo endpoint to update the profile: https://apidocs.klaviyo.com/reference/profiles#update-profile.
+This tag template can be used to append values to custom profile property arrays, using the email address of the profile. This is useful when the Klaviyo profile ID is not necessarily known. This tag uses the `profile-import` Klaviyo endpoint to update the profile: https://apidocs.klaviyo.com/reference/profiles#update-profile.
 
 ## Use Cases
 
-- This could be used to track any array of values for a customer, such as the products they've purchased, the pages they've visited, etc.
+- This could be used to track any array of values for a profile, such as the products they've purchased, the pages they've visited, etc.
 - I developed this because we wanted to be able to track which lead generators the customer has used in a custom `LeadGenHistory` property. This way whenever the user returns to our website to submit another lead gen form, it's added to an array, instead of only tracking their initial lead source.
 
 ## How to Use
